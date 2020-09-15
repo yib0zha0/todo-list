@@ -8,9 +8,7 @@ target 'TodoList' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'RNCCheckbox', :path => '../node_modules/@react-native-community/checkbox'
 
-  pod 'RNCPicker', :path => '../node_modules/@react-native-community/picker'
 
   target 'TodoListTests' do
     inherit! :complete
